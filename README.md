@@ -6,9 +6,9 @@ Add arrow you Highcharts axis
 
 first: include highcharts and this plugin file in you page
 
-​	<script src="https://code.highcharts.com/highcharts.js"></script>
-​	<script src="https://code.highcharts.com/modules/exporting.js"></script>
-​	<script src="highcharts-axis-arrow.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="highcharts-axis-arrow.js"></script>
 
 second: axis arrow enabled for all axis default, and can be disabled be set `axis.arrow = false`
 
@@ -33,4 +33,3 @@ second: axis arrow enabled for all axis default, and can be disabled be set `axi
        opposite: true,
        linkedTo: 0
      }]
-
