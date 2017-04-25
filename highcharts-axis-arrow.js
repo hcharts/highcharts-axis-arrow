@@ -1,5 +1,5 @@
 /**
- * Highcharts Axis arrow v 1.0.0 (2017-04-21)
+ * Highcharts Axis arrow v 1.0.1 (2017-04-25)
  *
  * (c) john@jianshukeji.com
  *  
