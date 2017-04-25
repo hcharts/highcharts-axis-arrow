@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Highcharts Axis arrows demo</title>
+  <meta charset="UTF-8">
+  <title>Highcharts Axis arrows demo</title>
 </head>
 
 <body>
-    <div class="wrapper" style="width: 800px;margin: 20px auto">
-        <div id="container"></div>
-        <div>
-            <h3>Usage</h3>
-            <p>enabled for all axis, you can disabled by set <code>axis.arrow = false</code>, see blow code</p>
-            <pre>yAxis: [{
+  <div class="wrapper" style="width: 800px;margin: 20px auto">
+    <div id="container"></div>
+    <div>
+      <h3>Usage</h3>
+      <p>enabled for all axis, you can disabled by set <code>axis.arrow = false</code>, see blow code</p>
+      <pre>yAxis: [{
   lineWidth: 1,
   lineColor: 'black',
   arrow: true,
@@ -33,39 +33,39 @@ xAxis: [{
   opposite: true,
   linkedTo: 0
 }]</pre>
-        </div>
     </div>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
-    <script src="highcharts-axis-arrow.js"></script>
-    <script>
-    Highcharts.chart('container', {
-        yAxis: [{
-            lineWidth: 1,
-            lineColor: 'black',
-            arrow: true,
-            reversed: true // reversed axis arrow
-        }, {
-            opposite: true,
-            linkedTo: 0,
-            lineWidth: 1,
-            lineColor: 'red',
-            arrow: false // diabled axis arrow
-        }],
+  </div>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="highcharts-axis-arrow.js"></script>
+  <script>
+  Highcharts.chart('container', {
+    yAxis: [{
+        lineWidth: 1,
+        lineColor: 'black',
+        arrow: true,
+        reversed: true // reversed axis arrow
+    }, {
+        opposite: true,
+        linkedTo: 0,
+        lineWidth: 1,
+        lineColor: 'red',
+        // arrow: false // diabled axis arrow
+    }],
 
-        xAxis: [{
-            arrow: true,
-            lineColor: 'black',
-        }, {
-            // enabled by default
-            opposite: true,
-            linkedTo: 0
-        }],
-        series: [{
-            data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
-        }]
-    });
-    </script>
+    xAxis: [{
+      lineColor: 'black',
+      reversed: true
+    }, {
+      // enabled by default
+      opposite: true,
+      linkedTo: 0,
+    }],
+    series: [{
+      data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+    }]
+  });
+  </script>
 </body>
 
 </html>

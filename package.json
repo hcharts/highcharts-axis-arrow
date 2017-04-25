@@ -1,35 +1,35 @@
 {
-    "name": "Highcharts Axis arrow",
-    "version": "1.0.0",
-    "title": "Highcharts Axis arrow",
-    "author": {
-        "name": "john",
-        "url": "https://www.hcharts.cn/"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://opensource.org/licenses/MIT"
-    }],
-    "dependencies": {
-        "highcharts": "5.0.10"
-    },
-    "type": "plugin",
-    "description": "add axis arrow to highcharts",
-    "keywords": [
-        "axis",
-        "arrow"
-    ],
-    "homepage": "https://github.com/hcharts/highcharts-axis-arrow",
-    "docs": "https://github.com/hcharts/highcharts-axis-arrow/blob/master/README.md",
-    "bugs": "https://github.com/hcharts/highcharts-axis-arrow/issues",
-    "download": "",
-    "demo": [
-        "https://raw.githubusercontent.com/hcharts/highcharts-axis-arrow/master/README.md",
-        ""
-    ],
-    "maintainers": [{
-        "name": "john",
-        "email": "john@jianshukeji.com",
-        "url": "https://www.hcharts.cn"
-    }]
+  "name": "Highcharts Axis arrow",
+  "version": "1.0.1",
+  "title": "Highcharts Axis arrow",
+  "author": {
+    "name": "john",
+    "url": "https://www.hcharts.cn/"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }],
+  "dependencies": {
+    "highcharts": "5.0.10"
+  },
+  "type": "plugin",
+  "description": "add axis arrow to highcharts",
+  "keywords": [
+    "axis",
+    "arrow"
+  ],
+  "homepage": "https://github.com/hcharts/highcharts-axis-arrow",
+  "docs": "https://github.com/hcharts/highcharts-axis-arrow/blob/master/README.md",
+  "bugs": "https://github.com/hcharts/highcharts-axis-arrow/issues",
+  "download": "",
+  "demo": [
+    "https://raw.githubusercontent.com/hcharts/highcharts-axis-arrow/master/README.md",
+    ""
+  ],
+  "maintainers": [{
+    "name": "john",
+    "email": "john@jianshukeji.com",
+    "url": "https://www.hcharts.cn"
+  }]
 }
